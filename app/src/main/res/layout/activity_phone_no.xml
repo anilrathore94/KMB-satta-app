@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:text="Helpline : +91-9024753336"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to"
+        android:textColor="#000"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="KMB Kalyan"
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/typeNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Mobile Number"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Update Profile"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <EditText
+            android:id="@+id/tvMobile"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="50dp"
+            android:background="@drawable/item_border_asdaaa"
+            android:gravity="center|left"
+            android:maxLines="1"
+            android:paddingLeft="16dp"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:drawableTint="@color/black"
+            android:paddingRight="12dp"
+            android:drawableRight="@drawable/phh"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/btnUpdate"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/reg_bg_l3og"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Next"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

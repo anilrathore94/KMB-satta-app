@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+android {
+    compileSdkVersion 30
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.kmbbooking.starline"
+        minSdkVersion 21
+        targetSdkVersion 30
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'org.jetbrains:annotations:15.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    //noinspection GradleCompatible
+    implementation "com.android.support:support-core-utils:28.0.0"
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    implementation 'com.github.kk121:SecureTimer:v1.0'
+    implementation 'com.airbnb.android:lottie:3.3.0'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+
+
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //Network
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation project(path: ':EasyUpiPayment')
+}
+
+
+

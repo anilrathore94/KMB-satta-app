@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KMB Kalyan</string>
+    <string name="TermsAndCondition">By Click on Login You are agree with our\n<u>Privacy Policy</u></string>
+    <string name="TermsAndConditionR">By Click on Register You are agree with our\n<u>Privacy Policy</u></string>
+    <string name="Login">Already have an Account?\n<b>SignIn Here</b></string>
+
+    <string name="signUp">Don\'t have an Account? <b>SignUp Here</b></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
+

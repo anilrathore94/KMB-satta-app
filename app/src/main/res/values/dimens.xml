@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="default_horizontal_spacing">32dp</dimen>
+
+    <dimen name="radiusTop">16dp</dimen>
+    <dimen name="paddingTop">16dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+</resources>

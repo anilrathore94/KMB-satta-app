@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kmbbooking.starline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.kmbbooking.starline.utils.Saurya"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_l"
+        android:roundIcon="@drawable/ic_l"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name="com.kmbbooking.starline.Starline.BidHistoryStarLineActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Starline.WinHistoryStarActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Starline.HomeStarLineActivity"
+            android:label="Surya Matra"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Starline.SelectStarLineGameActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Starline.PlayGameStarActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Starline.GameStarChartHistory"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.EnqueryActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.WithdrawActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.NoticeActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.Wallet"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.ForgotPassword"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.ForgotUpdatePasswordActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.SignUpActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Activity.LoginActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.OTPRegisterActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Activity.OTPForgetActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.SplashActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.Deposit"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.ProfileActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.WalletHistory"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.FundTransferActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.WinHistory"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Activity.BidHistory"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.GameRates"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.PlayVideo"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.ChangePassword"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.SelectGameActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.PlayGameActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.HalfSangamPlayGameActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.FullSangamPlayGameActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.GameChartHistory"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.PaytmActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name="com.kmbbooking.starline.Activity.PhonePayActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.GooglePayActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name="com.kmbbooking.starline.Activity.HomeActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+
+    </application>
+
+</manifest>

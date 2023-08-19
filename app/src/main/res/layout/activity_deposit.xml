@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="For Add Fund Releted Query.."
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:textStyle="bold"></TextView>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/phNo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+            android:textSize="28dp"
+            android:text=""
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/llWp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/whatsapp"></ImageView>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Deposit Amount"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:id="@+id/oldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_layout_bg"
+        android:gravity="center|left"
+        android:hint="Enter Here"
+        android:inputType="number"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColor="@color/itemFooterTextColor"
+        android:textColorHint="#5F5A5A"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/less"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="500"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="2000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="5000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="10,000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/fifty"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="50,000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/hundred"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_bga"
+            android:gravity="center"
+            android:text="1,00,000"
+            android:textColor="#30053C"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioAppChoice"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_layoutaa_bg"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/app_google_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:checked="true"
+            android:textSize="12dp"
+            android:text="Google Pay " />
+
+
+        <RadioButton
+            android:id="@+id/app_paytm"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"
+            android:text="PayTm " />
+
+        <RadioButton
+            android:id="@+id/app_phonepe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:text="PhonePe " />
+        <RadioButton
+            android:id="@+id/app_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:text="Other" />
+
+
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/changepassword"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/reg_bg_l3og"
+        android:gravity="center"
+        android:paddingRight="8dp"
+        android:text="Proceed"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>

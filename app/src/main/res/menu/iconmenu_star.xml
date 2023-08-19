@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="25dp">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:icon="@drawable/deposit"
+            android:iconTint="@color/white"
+            android:title="Home"></item>
+    </group>
+
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/bidhistory"
+            android:icon="@drawable/bighistory"
+            android:title="Star Line Bid History"></item>
+    </group>
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/winhistory"
+            android:icon="@drawable/win"
+            android:title="Star Line Win History"></item>
+    </group>
+
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/logut"
+            android:icon="@drawable/logout"
+            android:title="Logout"></item>
+    </group>
+
+
+</menu>

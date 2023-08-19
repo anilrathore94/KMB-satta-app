@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#993333</color>
+    <color name="colorPrimaryDark">#7C0E2D</color>
+    <color name="colorAccent">#7C0E2D</color>
+
+
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="apppink">#1c75bc</color>
+    <color name="material_dialog_background">@android:color/white</color>
+
+    <color name="material_dialog_title_text_color">@android:color/primary_text_light</color>
+    <color name="material_dialog_message_text_color">@android:color/secondary_text_light</color>
+
+    <color name="material_dialog_positive_button_text_color">?android:colorAccent</color>
+    <color name="material_dialog_negative_button_text_color">#1E88E5</color>
+
+    <color name="material_dialog_positive_button_color">?android:colorAccent</color>
+    <color name="itemFooterColorNon">#FFFFFF</color>
+
+    <color name="whiteoff">#606060</color>
+
+
+    <color name="itemFooterTextColor">#000000</color>
+
+    <!--normal colors-->
+
+
+    <!--colors for light mode-->
+
+</resources>

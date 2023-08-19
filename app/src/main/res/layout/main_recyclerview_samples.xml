@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:background="@drawable/background_fee"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+
+
+    <TextView
+        android:id="@+id/openTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/popreg"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:paddingBottom="4dp"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Welcome to DD Matka"
+
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center_horizontal"
+        android:text="MILAN MORNING"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:id="@+id/digit"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="***-*-***"
+        android:textColor="#E21B1B"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llStarLineSelect"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="4dp"
+        android:background="#58C569"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/marketStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Starline Game Closed For Toaday."
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+        <LinearLayout
+            android:id="@+id/llChart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/chart"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/llPlayNew"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/l_wistsh"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/llPlay"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/chart"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/tvPlay"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Chart"
+                android:fontFamily="@font/popreg"
+                android:textColor="@color/black"
+                android:textSize="11dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
